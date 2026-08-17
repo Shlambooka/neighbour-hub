@@ -48,6 +48,13 @@ body {
     font-style: italic;
     opacity: 0.9;
 }
+.alert {
+    font-size: 1.2rem;
+    color: #192e1a;
+    margin: 10px 0px;
+    font-style: italic;
+    opacity: 0.9;
+}
 
 .gathering {
     font-size: 1.2rem;
