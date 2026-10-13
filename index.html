@@ -6,19 +6,32 @@
     <title>NeighbourHub</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌱</text></svg>">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header>
+        <button class="menu-toggle" aria-label="Menu" aria-expanded="false" aria-haspopup="true">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+                <li><a href="code-of-conduct.html">Code of Conduct</a></li>
+                <li><a href="operations.html">Operations</a></li>
+                <li><a href="repair.html">Repair</a></li>
+                <li><a href="meetings.html">Meetings</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="container">
+    <main>
 
-    <!-- NAV BAR -->
-        <ul class="nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="code-of-conduct.html">Code of Conduct</a></li>
-            <li><a href="operations.html">Operations</a></li>
-            <li><a href="repair.html">Repair</a></li>
-        </ul>
-    
         <div class="title">
             <img src="art/title.svg" alt="NeighbourHub" class="logo">
         </div>
@@ -37,9 +50,9 @@
 
         <div class="meeting-info">
                 <!-- <p class="gathering">*Cancelled due to rain* - Sunday September 27th</p> -->
-                <p class="gathering">Next Meeting - Sunday October 11th, 11am</p>
-                <p>AUTUMN POTLUCK!</p>
-                <p>Bring some yummy food to share with your neighbours. Or don't bring food! It is up to you. No nuts please.</p>
+                <p class="gathering">Next Meeting - Sunday October 18th, 11am</p>
+                <p>HALLOWEEN COSTUME PARTY!</p>
+                <p>Show of your creepy costumes (or not if you aren't ready for Halloween).</p>
                 <!-- <p class="bold">Garbage supplies available for free from Alderney Library.</p> -->
                 <p class="alert">*Please no pets or peanuts*</p>
                 <p class="weekly-note">Weekly meet-ups at George Bissett Playground through Spring, Summer and Fall when weather permits (updated by 9am on the morning of the event.). </p>
@@ -69,6 +82,6 @@
         <div class="values">
             🌈 Safe Space  ·  🛠️ Skills  ·  🌳 Share
         </div>
-    </div>
+    </main>
 </body>
 </html>
